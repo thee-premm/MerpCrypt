@@ -1,0 +1,149 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MerpCrypt</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="imgage\png" href="icon.png">
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <header class="nav_bar" id="nav_bar">
+            <div class="logo_container">
+                <img src="icon.png">
+            </div>
+            <nav>
+                <ul class="nav_lists">
+                    <li><a href="#hero_sec">Home</a></li>
+                    <li><a href="#services_sec">Services</a></li>
+                    <li><a href="#outro_container">Description</a></li>
+                    <li><a href="#outro_container">About us</a></li>
+                    <li><a href="#contact_sec">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Hero Section-->
+        <section class="Hero_section" id="hero_sec">
+                <h1 class="typewriter">Welcome to the world of Crypts of Merp !!!</h1>
+            <div class="hero_button">
+                <a href="#services_sec">Let's CryptDrypt in</a>
+            </div>
+        </section>
+        
+
+        <!--Services Section-->
+        <section class="services_sec" id="services_sec">
+            <h1>CRYPTIONS</h1>
+            <div class="services_buttons_container">
+                <button class="service_button">
+                    <a href="#encryption_sec_container">Encryption</a>
+                </button>
+    
+                <button class="service_button">
+                    <a href="#decryption_sec_container">Decryption</a>
+                </button>
+            </div>
+        </section>
+
+        <!--Encryption Section-->
+        <div class="encryption_sec_container" id="encryption_sec_container">
+            <section class="encryption_sec" id="encryption_sec">
+                <h2>🔒 The Encryption 🔒</h2>
+                <textarea class="encryption_input" rows="7" cols="45" placeholder="Enter or paste your message..."></textarea>
+                <div class="pin_container">
+                    <label class="pin_label">Set 4-digit Pin: </label>
+                    <input  clas="pin_input" type="number" min="1000" max="9999"  placeholder="eg-1234" required>
+                </div>
+                <button class="encrypt_button" id="encrypt_submit">Encrypt</button>
+                <textarea class="encryption_output" rows="7" cols="45" placeholder="The Encrypted message will come here..."></textarea>
+    
+                <button class="copy_button">Copy to Clickborad</button>
+            </section>
+        </div>
+
+        
+        <!--Decryption Section-->
+        <div class="decryption_sec_container" id="decryption_sec_container">
+            <section class="decryption_sec" id="decryption_sec">
+                <h2> 🔐 Decryption 🔐</h2>
+                <textarea class="decryption_input" rows="7" cols="45" placeholder="Enter or paste your encrypted message..."></textarea>
+               <div class="pin_container">
+                <label class="pin_label">Enter 4-digit Pin</label>
+                <input  class="pin_input" type="number" maxlength="4" min="1000" max="9999" placeholder="eg-1234" required>
+               </div>
+                <button class="decrypt_button" id="encrypt_submit">Decrypt</button>
+                <textarea class="decryption_output" rows="7" cols="45" placeholder="The Decrypted message will come here..."></textarea>
+    
+                <button class="copy_button">Copy to Clickborad</button>
+            </section>
+        </div>
+
+
+        <div class="outro_container" id="outro_container">
+
+        <!--Description Section-->
+        <section class="description_sec" id="description_sec">
+            <h1>Description:</h1>
+            <ul>
+                <li><strong>🔐 MerpCrypt</strong> is a creative encryption-decryption tool built using Caesar Cipher logic — with a twist of fun using emojis!</li>
+                
+                <li><strong>🔢 PIN-Protected:</strong> You set a 4-digit PIN, and that becomes your encryption key. No PIN = no access to the original message.</li>
+                
+                <li><strong>😀 Emoji Magic:</strong> Instead of encrypted letters, your message gets turned into an expressive string of emojis. Every letter maps to an emoji — making the output fun and secure at the same time.</li>
+                
+                <li><strong>🎮 Simple & Interactive:</strong> Clean user interface with easy-to-use buttons for encrypting, decrypting, and copying results instantly.</li>
+                
+                <li><strong>🧠 Educational Touch:</strong> Behind the scenes, it uses Caesar Cipher logic — great for anyone curious about how encryption works at a basic level.</li>
+                
+                <li><strong>📱 Lightweight & Responsive:</strong> Designed to work smoothly on desktop — no downloads, no setup, just direct fun in the browser.</li>
+                
+                <li><strong>🎨 Aesthetic + Functional:</strong> Modern UI with a touch of creative madness (yeah, emojis everywhere) 😄</li>
+                
+                <li><strong>💡 My Vision:</strong> I created MerpCrypt to blend coding, security, and fun — so anyone, even without technical background, can play with encryption and enjoy the process.</li>
+                
+                <li><strong>👨‍💻 Built with Passion:</strong> From scratch, designed, UI, Idea, and  everythings holds is developed by me — Prem, a student and tech enthusiast from CEG, Anna University.</li>
+            </ul>
+        </section>
+        </section>
+                    
+        <!--About Section-->
+        <section class="about_sec" id="about_sec">
+            <h1>About:</h1>
+            <p>Hi! I’m <strong>Prem</strong>, currently pursuing my Bachelor’s in Information Technology at the College of Engineering, Guindy — Anna University, Chennai. I'm someone who gets really excited about solving problems with code, creating things that are both useful and unique, and adding a spark of personality to every project I build.</p>
+
+            <p>MerpCrypt is not just a project for me — it's a reflection of my mindset as a developer. I believe learning should be fun, and tools should feel alive. That’s why I blended encryption (something usually seen as complex and technical) with emojis (the universal language of the internet) to create this tool. I want people who use MerpCrypt to smile, to get curious, and maybe even learn something new while they’re at it.</p>
+        
+            <p>I built this project completely on my own — from the logic and encryption model to the UI and all the little details like copy buttons and user feedback alerts. And I’m still improving it, step by step. Every time someone uses MerpCrypt and enjoys it, it pushes me to do more.</p>
+        
+            <p>If you're someone who shares the same passion for tech, or even if you're just exploring, feel free to connect with me. I’m always down to share knowledge, learn new things, and build something awesome together.</p>
+        
+            <p>Thanks for stopping by. And as I always say — don’t just encrypt your messages, give them a personality. 😎🔐</p>
+            <P>And, the last line that can describe me well , <b>"Get that, or die trying !!!"</b></P>
+        </section>
+        </section>
+
+        <!--Contact-->
+        <section class="contact_sec" id="contact_sec">
+            <section class="contact_sec" id="contact_sec">
+                <h1>Contact:</h1>
+                <h3>Got a question, suggestion, or just wanna say hi?</h3>
+                <h4>Feel free to reach out anytime 👇</h4>
+                <p><strong>Email:</strong> premm.000000@gmail.com</p>
+                <p><strong>Social Media:</strong> Telegram, Discord, Reddit, Quoara — <em>@thee_premm</em></p>
+                <p><strong>Call:</strong> +91 93224 68833</p>
+            </section>
+            
+        </section>
+        </div>
+
+        <!--Footer-->
+        <footer class="footer_sec">
+            ©️ All rights are reserved for @thee_premm
+        </footer>
+
+        <!--JS-->
+        <script src="script.js"></script>
+    </body>
+</html>
